@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shilp Shah - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">Shilp<span>Shah</span></div>
+    <nav>
+      <a href="https://www.linkedin.com/in/shilp-parag-shah" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+      <a class="btn small" href="assets/resume.pdf" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img class="avatar" src="assets/profile.jpg" alt="Shilp profile photo">
+    <div class="hero-text">
+      <h1>Hi, I’m <span class="accent">Shilp</span></h1>
+      <p class="lead">CS & AI @ Purdue — software engineering, applied AI, and healthcare data analytics.</p>
+      <div class="cta"><a class="btn primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download Resume</a></div>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="container">
+  <h2>About</h2>
+  <p>Hi, I’m <strong>Shilp</strong> 👋 — a junior at Purdue studying <strong>Computer Science (AI & Software)</strong>. I love building things that blend code, creativity, and problem-solving, and I learn best by doing.</p>
+
+  <p>Lately that’s meant a mix of projects: a privacy-aware AI assistant (Django + React with GPT-4/Gemini/Llama), a Flutter geofencing app, and some low-level fun like a Simple C compiler and a custom memory allocator. I’m as excited about the process as the outcome—sketching ideas, reading, debugging, and polishing until it feels right.</p>
+
+  <p>Outside of code, you’ll probably find me at a piano 🎹 (15+ years), testing hi-fi audio gear 🎧, or following motorsport 🏎️ (F1/IMSA/WEC/IndyCar). I’ve even been lucky to attend two F1 Grands Prix!</p>
+
+  <p>I enjoy projects that are useful, reliable, and a little playful. If any of this resonates, say hi—always happy to chat about AI, cloud, or your favorite headphones.</p>
+</section>
+
+
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <div class="edu-card">
+        <img src="assets/purdue_logo.png" alt="Purdue University logo" class="edu-logo">
+        <div>
+          <h3>Purdue University — West Lafayette</h3>
+          <p><strong>Junior</strong>, B.S. in Computer Science (SWE & ML concentrations), Artificial Intelligence; Certificate in Data Science</p>
+          <p><strong>Expected Graduation:</strong> May 2027 • Dean’s List and Semester Honors</p>
+          <p><strong>Certifications:</strong> Microsoft Azure Fundamentals (AZ-900), CITI (Human Subjects Research)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+      <ul class="exp-accordion">
+        <li class="exp">
+          <button class="exp-toggle">Johnson & Johnson — The Data Mine (Corporate Partner)</button>
+          <div class="exp-panel">
+            <div class="exp-media"><img src="assets/jj.png" alt="J&J"></div>
+            <div class="exp-text">
+              <ul>
+                <li>Built an <strong>R package & Shiny app</strong> to support Phase 2 <strong>go/no-go drug development decisions</strong>.</li>
+                <li>Integrated <strong>MBMA, PBPK, and QSP models</strong> to improve predictive probabilities and strengthen <strong>clinical decision-making</strong>.</li>
+                <li>Collaborated with J&J researchers on <strong>healthcare data science</strong> and translational medicine use cases.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="exp">
+          <button class="exp-toggle">Project Athena — Transition Path Inc.</button>
+          <div class="exp-panel">
+            <div class="exp-media"><img src="assets/athena.png" alt="Project Athena"></div>
+            <div class="exp-text">
+              <ul>
+                <li>Led a 10-member team to develop a secure AI assistant with <strong>Django + React</strong>; integrated <strong>GPT-4, Gemini, Llama</strong> for hybrid inference.</li>
+                <li>Implemented <strong>LLM streaming</strong>, zero-retention APIs, and on-device inference to enable secure document Q&A.</li>
+                <li>Co-presented research at the <strong>TDM Symposium</strong> on privacy-preserving AI methods.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="exp">
+          <button class="exp-toggle">Purdue Information Technology — Service Desk</button>
+          <div class="exp-panel">
+            <div class="exp-media"><img src="assets/purdue_it.png" alt="Purdue IT"></div>
+            <div class="exp-text">
+              <ul>
+                <li>Resolved Tier-1 issues (<strong>MFA, identity, networking</strong>) while managing tickets in <strong>ITSM</strong> and ensuring <strong>SLA compliance</strong>.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="exp">
+          <button class="exp-toggle">Global Solutions Group — Application Modernization Intern (Salesforce)</button>
+          <div class="exp-panel">
+            <div class="exp-media"><img src="assets/gsg.png" alt="GSG"></div>
+            <div class="exp-text">
+              <ul>
+                <li>Built and configured a Proposal Management app in <strong>Salesforce CRM</strong>, modernizing client proposal workflows.</li>
+                <li>Supported admin tasks, certification prep, and gained exposure to <strong>cloud computing</strong> within Salesforce.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="exp">
+          <button class="exp-toggle">GetOnCRM Solutions — Salesforce Administrator Intern</button>
+          <div class="exp-panel">
+            <div class="exp-media"><img src="assets/getoncrm.png" alt="GetOnCRM"></div>
+            <div class="exp-text">
+              <ul>
+                <li>Assisted with Salesforce org-wide configuration, user role management, and security policies.</li>
+                <li>Built reports and dashboards to improve decision-making using <strong>cloud-based CRM tools</strong>.</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <ul class="projects">
+        
+        <li class="proj">
+  <button class="proj-toggle">Portfolio Website (Static)</button>
+  <div class="proj-dropdown">
+    <div class="proj-media">
+      <img src="assets/portfolio_site.png" alt="Portfolio website screenshot">
+    </div>
+    <div class="proj-text">
+      <p>Designed and shipped a modern, responsive portfolio as a <strong>static site</strong> with semantic HTML, modular CSS, and vanilla JavaScript. Implemented <strong>hover/click dropdowns</strong> for Projects & Experience, a <strong>light/dark theme toggle</strong> persisted via <strong>localStorage</strong>, and <strong>accessible patterns</strong> (structured headings, ARIA roles/states). Code hosted on <strong>GitHub</strong> with a <strong>GitHub Actions</strong> pipeline that auto-deploys to <strong>Azure Static Web Apps (Free)</strong> on merge—HTTPS and custom domain ready.</p>
+
+      <ul class="tags">
+        <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+        <li>Responsive UI</li><li>Accessibility</li>
+        <li>LocalStorage</li><li>GitHub Actions</li>
+        <li>Azure Static Web Apps</li><li>CI/CD</li>
+      </ul>
+
+      <!-- Optional buttons: replace hrefs when ready -->
+      <p class="links">
+        <a class="btn" href="https://github.com/USERNAME/REPO" target="_blank" rel="noopener">Source</a>
+        <a class="btn" href="https://YOUR-SITE.azurestaticapps.net" target="_blank" rel="noopener">Live</a>
+      </p>
+    </div>
+  </div>
+</li>
+
+
+        <li class="proj">
+  <button class="proj-toggle">GeoWake (Flutter)</button>
+  <div class="proj-dropdown">
+    <div class="proj-media">
+      <img src="assets/geowake.png" alt="GeoWake screenshot">
+    </div>
+    <div class="proj-text">
+      <p>Location-based alarm that triggers when you approach a destination — handy for commutes. Built in <strong>Flutter</strong> with <strong>geofencing</strong>, <strong>offline maps</strong>, and background polling. Includes transport-aware thresholds to avoid false triggers on highways or slow traffic.</p>
+      <ul>
+        <li>Google Maps SDK + custom geofence ring with dynamic radius controls.</li>
+        <li>Background task scheduling for iOS/Android with battery-aware intervals.</li>
+        <li>Address autocomplete, saved locations, and silent test alerts.</li>
+        <li>Local notifications with snooze / dismiss actions.</li>
+      </ul>
+      <ul class="tags">
+        <li>Flutter</li><li>Dart</li><li>Google Maps</li><li>Geofencing</li><li>Background Tasks</li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+        <li class="proj">
+  <button class="proj-toggle">Custom Dynamic Memory Allocator</button>
+  <div class="proj-dropdown">
+    <div class="proj-media">
+      <img src="assets/allocator.png" alt="Memory Allocator screenshot">
+    </div>
+    <div class="proj-text">
+      <p>A thread-safe allocator in <strong>C</strong> implementing <code>malloc</code>/<code>free</code>/<code>realloc</code>. Focused on fragmentation reduction and predictable performance under contention.</p>
+      <ul>
+        <li>Segregated free lists by size class; best-fit within class for locality.</li>
+        <li>Block headers/footers with coalescing on free; split/merge heuristics.</li>
+        <li><strong>Mutex</strong> protection + minimal critical sections to reduce lock time.</li>
+        <li>Alignment guarantees and guard checks in debug mode.</li>
+      </ul>
+      <ul class="tags">
+        <li>C</li><li>Concurrency</li><li>Memory Mgmt</li><li>Systems</li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+        <li class="proj">
+  <button class="proj-toggle">Simple C Compiler</button>
+  <div class="proj-dropdown">
+    <div class="proj-media">
+      <img src="assets/compiler.png" alt="Simple C Compiler screenshot">
+    </div>
+    <div class="proj-text">
+      <p>Compiler for a C-like language (“SimpleC”) using <strong>Lex/Yacc</strong>. Generates <strong>x86-64 assembly</strong> with basic optimizations and a clean IR.</p>
+      <ul>
+        <li>Lexer + parser for expressions, control flow, and pointers.</li>
+        <li>Symbol table + type checking; stack-based calling convention.</li>
+        <li>IR passes for constant folding and dead-code elimination (selective).</li>
+        <li>Codegen to AT&T syntax with register allocation and spill handling.</li>
+      </ul>
+      <ul class="tags">
+        <li>Lex/Yacc</li><li>x86-64</li><li>Compilers</li><li>IR/Codegen</li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+        <li class="proj">
+  <button class="proj-toggle">E-commerce Platform (Java)</button>
+  <div class="proj-dropdown">
+    <div class="proj-media">
+      <img src="assets/ecommerce.png" alt="E-commerce app screenshot">
+    </div>
+    <div class="proj-text">
+      <p>Multi-user marketplace in <strong>Java</strong> with GUI, concurrency support, and network I/O. Simulates product listings, carts, and transactional updates with consistent state across clients.</p>
+      <ul>
+        <li>Client-server architecture with request/response protocol and auth.</li>
+        <li>Thread-safe inventory operations; basic optimistic concurrency.</li>
+        <li>Serialized persistence layer for snapshot + restore.</li>
+        <li>Swing/JavaFX GUI with table view, filters, and error boundaries.</li>
+      </ul>
+      <ul class="tags">
+        <li>Java</li><li>Networking</li><li>Concurrency</li><li>GUI</li>
+      </ul>
+    </div>
+  </div>
+</li>
+
+      </ul>
+    </section>
+
+    <section id="interests" class="container">
+      <h2>Interests</h2>
+    <ul class="interest-list">
+      <li><span class="emoji">🎹</span><strong>Music</strong> — 15+ years of piano; hi-fi audio gear enthusiast.</li>
+      <li><span class="emoji">🏎️</span><strong>Motorsports</strong> — follow F1/IMSA/WEC/IndyCar; love karting; attended 2 F1 GPs.</li>
+      <li><span class="emoji">🌍</span><strong>Travel & Culture</strong> — exploring new places and cuisines.</li>
+      <li><span class="emoji">💻</span><strong>Tech & AI</strong> — tinkering with models, tools, side projects.</li>
+    </ul>
+
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p><a href="mailto:shah957@purdue.edu">shah957@purdue.edu</a> • <a href="https://www.linkedin.com/in/shilp-parag-shah" target="_blank" rel="noopener">LinkedIn</a> • <a href="assets/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Shilp Shah</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
